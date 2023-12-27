@@ -39,7 +39,7 @@ blockquote {
   padding: 10px;
   padding-left: 5em;
   padding-right: 5em;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   text-decoration: none;
   background-color: #3c4e3d;
@@ -47,6 +47,29 @@ blockquote {
   border-radius: 5px;
   border: 2px solid #252f25;
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Oswald', sans-serif;
+}
+
+.button-work {
+  margin-top: 3em;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  color: #6d926d;
+  border-radius: 5px;
+  border: 2px solid #6d926d;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Oswald', sans-serif;
+}
+
+.button-work:hover {
+  color: #3c4e3d;
+  border: 2px solid #3c4e3d;
 }
 
 .button-primary:hover {
@@ -104,10 +127,6 @@ sup, .sup {
   text-transform: uppercase;
   padding-right: 1rem;
   padding-left: 1rem;
-}
-
-.navbar {
-  background-color: #e6e4de;
 }
 
 .circle {
@@ -175,7 +194,7 @@ header.p-section {
 
 .marker-highlight:before {
   content: "";
-  background-color: #ff9500c3;
+  background-color: #3c4e3d5b;
   width: 102%;
   height: 0.2em;
   position: absolute;
