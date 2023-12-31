@@ -209,11 +209,58 @@ header.p-section {
   padding: 2em;
 }
 
-/* .section-contact {
-  display: flex;
-  width: 50em;
+#contact {
+  padding: 60px 0;
 }
 
-.contact-section {
-  display: flex;
-} */
+.section-contact {
+  margin-bottom: 30px;
+}
+
+.info-box {
+  text-align: left;
+}
+
+.info-box i {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.info-box h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 1em;
+}
+
+.info-box p {
+  font-size: 16px;
+}
+
+form {
+  background: whitesmoke;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+  display: inline-block;
+  padding: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 15px;
+  margin-top: 1em;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3c4e3d;
+  color: #fff;
+  border-radius: 5px;
+  border: 2px solid #252f25;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Oswald', sans-serif;
+}
+
+form button:hover {
+  background-color: #6d926d;
+  color: #fff;
+}
