@@ -18,6 +18,11 @@ blockquote {
   width: 25px;
 }
 
+.omar-codes-logo {
+  height: 50px;
+  width: 50px;
+}
+
 h1, .h1 {
   font-size: 65px;
 }
